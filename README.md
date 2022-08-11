@@ -1,2 +1,2 @@
 # Sessional-Assessment-2
-# Picture Gallery
+# Picture Gallery Application
