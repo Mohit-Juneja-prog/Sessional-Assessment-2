@@ -12,14 +12,9 @@
     margin-top: 60px;
 }
 #container{
-    /* background-color: blanchedalmond; */
-    /* padding: 2%; */
-    /* width: 95%; */
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-    /* margin: auto; */
     grid-gap: 20px;
-    /* margin-top: 60px; */
 
 }
 .innnerContainer{
@@ -53,13 +48,11 @@
     width: 95%;
     height: 90vh;
 
-    /* background-color: #464646; */
     background-image: url("sus.jpg");
     background-position: center center;
     background-size: cover;
     border-radius: 10px;
     margin: 0 auto;
-    /* margin-top: 40px; */
     border: 5px solid rgba(0,0,0,0.5);
 }
 nav{
