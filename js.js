@@ -14,7 +14,6 @@ xmlhttp.send();
 
 
 function myFunction(arr) {
-    // console.log(arr);
     for(var i=0;i<arr.length;i++){
         makeElement(arr[i].title,arr[i].url,arr[i].thumbnailUrl);
     }
@@ -23,7 +22,6 @@ function myFunction(arr) {
 var parent=document.getElementById("container");
 
 function makeElement(title,url,thumbnailUrl){
-    // console.log(title,url,thumbnailUrl);
 
     const para = document.createElement("p");
     const img = document.createElement('img');
